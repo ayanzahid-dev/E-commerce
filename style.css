@@ -9,6 +9,24 @@
     padding: 40px 60px;
 }
 
+.section-m1 {
+    margin: 40px 0px;
+}
+
+button.normal {
+    font-size: 15px;
+    padding: 15px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -163,24 +181,26 @@
 }
 
 #product1 {
-    text-align: center;  
+    text-align: center;
 }
-#product1 h1{
+
+#product1 h1 {
     padding-bottom: 10px;
     font-size: 40px;
 }
 
-#product1 .pro-container{
+#product1 .pro-container {
     display: flex;
     justify-content: space-between;
-  
+
     flex-wrap: wrap;
 }
-#product1 .pro{
+
+#product1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #cce7d0 ;
+    border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
     margin-top: 30px;
@@ -189,41 +209,49 @@
     position: relative;
 
 }
-#product1 .pro:hover{
+
+#product1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 
 
 }
-#product1 .pro img{
+
+#product1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
-#product1 .pro .des{
+
+#product1 .pro .des {
     text-align: start;
     padding: 10px 0px;
 
 }
-#product1 .pro .des span{
+
+#product1 .pro .des span {
     color: grey;
-    
-    
+
+
 }
-#product1 .pro .des h5{
+
+#product1 .pro .des h5 {
     padding-top: 8px;
     color: black;
 
 }
-#product1 .pro .des i{
+
+#product1 .pro .des i {
     color: #FFB600;
 }
-#product1 .pro .des h4{
-    color:darkolivegreen ;
+
+#product1 .pro .des h4 {
+    color: darkolivegreen;
     padding-top: 7px;
 }
-.cart{
+
+.cart {
     color: darkolivegreen;
     background-color: lightgrey;
-    border: 1px solid #cce7d0 ;
+    border: 1px solid #cce7d0;
     border-radius: 50px;
     height: 40px;
     width: 40px;
@@ -234,4 +262,37 @@
 
 }
 
+#banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/product/b1.jpg);
+    height: 40vh;
+    color: white;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
 
+#banner h1 {
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+#banner h1 span {
+    color: maroon;
+}
+
+#banner h4 {
+    font-size: 25px;
+
+
+}
+
+#banner button:hover {
+    background-color: darkolivegreen;
+    color: white;
+
+}
