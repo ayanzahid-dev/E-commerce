@@ -95,6 +95,15 @@ button.white {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
 #hero {
     background-image: url(img/hero4.png);
     height: 90vh;
@@ -121,7 +130,8 @@ button.white {
     font-size: 25px;
     font-weight: 600;
 }
-#hero h2{
+
+#hero h2 {
     font-size: 40px;
     font-weight: 700;
 }
@@ -468,28 +478,33 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
-footer .col{
+
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
 
 }
-footer .logo{
+
+footer .logo {
     margin-bottom: 30px;
-    
+
 }
-footer h4{
+
+footer h4 {
     font-size: 20px;
     padding-bottom: 20px;
 }
-footer p{
+
+footer p {
     font-size: 15px;
     margin: 0 0 8px 0;
 }
-footer a{
+
+footer a {
     font-size: 15px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -497,31 +512,201 @@ footer a{
 
 
 }
-footer .follow{
+
+footer .follow {
     margin-top: 20px;
 }
-footer .follow i{
+
+footer .follow i {
     color: gray;
     cursor: pointer;
     padding-right: 4px;
 }
 
-footer .install .row img{
+footer .install .row img {
     border: 1px solid darkolivegreen;
     border-radius: 6px;
 
 }
-footer .install img{
+
+footer .install img {
     margin: 10px 0 12px 0;
 }
-footer .follow i:hover,
-footer a:hover{
 
-color: darkolivegreen;
+footer .follow i:hover,
+footer a:hover {
+
+    color: darkolivegreen;
 }
-footer .copyright{
+
+footer .copyright {
     width: 100%;
     text-align: center;
 }
 
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
 
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: black;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 30px;
+
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+        background-position: top 30% right 30%;
+        height: 70vh;
+        padding: 0px 80px;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #sm-banner .banner-box {
+        height: 50vh;
+        min-width: 100%;
+    }
+
+    #banner3 {
+        padding: 0px 60px;
+    }
+
+    #banner3 .banner-box {
+        width: 30%;
+    }
+
+    #newsletter .form {
+
+        width: 60%;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width:477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        background-position: 55%;
+        padding: 0px 20px;
+    }
+
+    #hero h2 {
+        font-size: 25px;
+
+    }
+
+    #hero h1 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #hero p {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #feature .fe-box {
+
+        width: 155px;
+        margin: 0 0 15px 0;
+
+    }
+
+    #feature {
+
+        justify-content: space-between;
+    }
+
+    #product1 .pro {
+        width: 100%;
+
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3 {
+        padding: 0px 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter .form {
+        width: 100%;
+
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+}
