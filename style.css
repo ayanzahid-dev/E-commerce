@@ -26,6 +26,7 @@ button.normal {
     font-weight: 600;
 
 }
+
 button.white {
     font-size: 11px;
     padding: 10px 18px;
@@ -110,12 +111,19 @@ button.white {
 }
 
 #hero h4 {
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
 #hero h1 {
     color: darkolivegreen;
     padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#hero h2{
+    font-size: 40px;
+    font-weight: 700;
 }
 
 #hero p {
@@ -308,13 +316,13 @@ button.white {
     color: white;
 }
 
-#sm-banner{
+#sm-banner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#sm-banner .banner-box{
+#sm-banner .banner-box {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -326,39 +334,45 @@ button.white {
     background-position: center;
     background-size: cover;
     padding: 30px;
-    
+
 }
 
-#sm-banner .banner-box2{
+#sm-banner .banner-box2 {
     background-image: url(img/product/b10.jpg);
     background-size: cover;
 
 }
-#sm-banner h4{
+
+#sm-banner h4 {
     font-size: 20px;
 
 }
-#sm-banner h2{
+
+#sm-banner h2 {
     font-size: 35px;
 }
-#sm-banner span{
+
+#sm-banner span {
     font-size: 18px;
     padding-bottom: 15px;
 }
-#sm-banner .banner-box:hover button{
+
+#sm-banner .banner-box:hover button {
     background-color: darkolivegreen;
     border: 1px solid darkolivegreen;
     border-radius: 2px;
 
 }
-#banner3{
+
+#banner3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0px 60px;
 
 }
-#banner3 .banner-box{
+
+#banner3 .banner-box {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -373,53 +387,58 @@ button.white {
     margin-bottom: 20px;
 
 }
-#banner3 h2{
+
+#banner3 h2 {
     color: white;
     font-size: 20px;
 }
 
-#banner3 h3{
+#banner3 h3 {
     padding-top: 10px;
     color: maroon;
 
 }
-#banner3 .banner-box2{
+
+#banner3 .banner-box2 {
     background-image: url(img/product/b4.jpg);
-    
+
 
 }
 
-#banner3 .banner-box3{
+#banner3 .banner-box3 {
     background-image: url(img/product/b18.jpg );
 
 }
-#newsletter{
+
+#newsletter {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items:center ;
+    align-items: center;
     background-image: url(img/product/b14.png);
     background-repeat: no-repeat;
     background-color: darkblue;
     background-position: 20% 30%;
 }
 
-#newsletter h4{
+#newsletter h4 {
     font-size: 25px;
     font-weight: 300;
     color: #E3E6F3;
 }
-#newsletter p{
+
+#newsletter p {
     font-size: 15px;
     font-weight: 300;
     color: white;
     padding-top: 10px;
 }
-#newsletter p span{
+
+#newsletter p span {
     color: #FFB600;
 }
 
-#newsletter input{
+#newsletter input {
     height: 3.125rem;
     padding: 0px 1.25em;
     font-size: 12px;
@@ -431,14 +450,78 @@ button.white {
     border-top-right-radius: 0px;
 
 }
-#newsletter button{
+
+#newsletter button {
     background-color: darkolivegreen;
     color: white;
     white-space: nowrap;
     border-top-left-radius: 0px;
     border-top-left-radius: 0px;
 }
-#newsletter .form{
+
+#newsletter .form {
     display: flex;
     width: 40%;
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+footer .logo{
+    margin-bottom: 30px;
+    
+}
+footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+
+
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: gray;
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+footer .install .row img{
+    border: 1px solid darkolivegreen;
+    border-radius: 6px;
+
+}
+footer .install img{
+    margin: 10px 0 12px 0;
+}
+footer .follow i:hover,
+footer a:hover{
+
+color: darkolivegreen;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
